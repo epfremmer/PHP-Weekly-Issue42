@@ -1,0 +1,25 @@
+{
+    "name": "epfremme/issue_31",
+    "description": "Prisoner's dilemma battle bot",
+    "type": "challenge",
+    "authors": [
+        {
+            "name": "epfremme",
+            "email": "epfremme@nerdery.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPWeekly\\Issue42\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
