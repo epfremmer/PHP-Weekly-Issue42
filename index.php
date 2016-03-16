@@ -24,11 +24,12 @@ Usage:
   php index.php [options] [--] <width> <height> <generations>
 
 Arguments:
-  width  Board width
-  height Board height
+  width       Board width
+  height      Board height
+  generations Max number of generations to run
 
 Options:
-  --help Display this help message
+  --help      Display this help message
 
 END;
 
