@@ -21,7 +21,7 @@ define('HEADLESS_FLAG', 'true');
 if ($argc < 3 || array_search('--help', $argv) !== false) {
     echo <<<END
 Usage:
-  php index.php [options] [--] <width> <height>
+  php index.php [options] [--] <width> <height> <generations>
 
 Arguments:
   width  Board width
